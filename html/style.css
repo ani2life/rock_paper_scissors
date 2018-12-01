@@ -1,0 +1,57 @@
+form {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+input, button {
+    border-radius: 2px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+button.battle {
+    display: block;
+    padding: 5px 30px;
+    margin: 20px auto;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+}
+
+.main .area {
+    display: flex;
+    flex: 0 0 0;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+.main .area .player {
+    text-align: center;
+}
+.main .area .player.one {
+    color: red;
+}
+.main .area .player.two {
+    color: blue;
+}
+.main .area .player .name {
+    font-size: 25px;
+    font-weight: bold;
+}
+.main .area .vs {
+    font-size: 100px;
+}
+
+.main .log {
+    flex: 1 0 0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
