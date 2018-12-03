@@ -10,7 +10,7 @@ class PlayerRand implements Player
         int $prev_round,
         int $my_prev_hand_code,
         int $rival_prev_hand_code,
-        bool $prev_battle_result
+        int $prev_battle_result
     ): int {
         return rand(1, 3);
     }
