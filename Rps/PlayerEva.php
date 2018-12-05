@@ -16,7 +16,7 @@ class PlayerEva implements Player
         int $prev_round,
         int $my_prev_hand_code,
         int $rival_prev_hand_code,
-        bool $prev_battle_result
+        int $prev_battle_result
     ): int {
         // 멜키오르(MELCHIOR) : 과학자로서의 나오코
         $magi_melchior = function () use ($prev_round, $prev_battle_result) {
